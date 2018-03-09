@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Pre-register
 ref: preregister
 lang: en
