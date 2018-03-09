@@ -1,12 +1,13 @@
 ---
-layout: page
+layout: default
 title: Home
 ref: home
 lang: en
 permalink: index.html
 order: 1
 ---
-      <div class="art-content-layout">
+
+<div class="art-content-layout">
                      <div class="art-content-layout-row">
                          <div class="art-layout-cell art-content"><article class="art-post art-article">
                    
