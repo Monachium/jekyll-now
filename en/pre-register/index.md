@@ -6,11 +6,7 @@ lang: en
 permalink: pre-register.html
 order: 2
 ---
-<div class="art-layout-wrapper">
-                <div class="art-content-layout">
-                    <div class="art-content-layout-row">
-                        <div class="art-layout-cell art-content"><article class="art-post art-article">
-                                <h2 class="art-postheader">Pre-Register</h2>
+<h2 class="art-postheader">Pre-Register</h2>
                                                 
                 <div class="art-postcontent art-postcontent-0 clearfix">Please fill in the following pre-registration form. It will help us <span style="font-size: 11pt; font-family: Calibri, sans-serif; ">organize</span> the event better<p>
 </p><form id="pre-register" action="https://battlevaria.monachium.org/send_form_email.php" enctype="test/plain" method="post">
@@ -92,10 +88,3 @@ order: 2
 <br>
 <p><span style="font-weight: bold;">Please note:</span>&nbsp;this is not the full registration only a pre-registration of interest. However if the event fills up..."first in first served". Pre-registered means you are more likely to get a spot. Will send out a full registration form to your email &nbsp;in the up and coming months.&nbsp;<br></p><p>Make sure that mails from&nbsp;<span style="font-weight: bold;">battlevaria@monachium.org</span> dont land in your spamfolder!&nbsp;</p><p><button id="send" name="send" type="submit" value="Submit">Pre-Register</button>
 </p></form></div>
-
-
-</article></div>
-                    </div>
-                </div>
-            </div>
-            
