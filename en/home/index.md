@@ -6,8 +6,6 @@ lang: en
 permalink: index.html
 order: 1
 ---
-
-<div class="art-layout-wrapper">
                 <div class="art-content-layout">
                     <div class="art-content-layout-row">
                         <div class="art-layout-cell art-content"><article class="art-post art-article">
@@ -47,6 +45,5 @@ order: 1
         <h3 style="text-align: center;">Pre-Register</h3><p>Please pre-register. A full registration process will follow as we get closer to the event and more details are added.<br></p><p><br></p>
     </div>
     </div>
-</div>
 </div>
 
