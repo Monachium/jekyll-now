@@ -1,4 +1,6 @@
-> March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
+**This site is live** on battlevaria.de.
+
+**Test all changes locally** (see below) except pure text edits. Anything involving HTML, CSS, or other things that can break larger parts of the page, must be tested locally before pushing.
 
 # Jekyll Now
 
