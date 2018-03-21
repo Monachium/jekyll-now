@@ -1,4 +1,4 @@
-**This site is live** on battlevaria.de.
+# This site is live on battlevaria.de.
 
 **Test all changes locally** (see below) except pure text edits. Anything involving HTML, CSS, or other things that can break larger parts of the page, must be tested locally before pushing.
 
