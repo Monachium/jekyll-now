@@ -1,10 +1,9 @@
 ---
-
 layout: page
 title: Contact Us
 lang: en
 permalink: contact-us.html
-order: 3
+order: 4
 ---
 
 <div class="art-content-layout">

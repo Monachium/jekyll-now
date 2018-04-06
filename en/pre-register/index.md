@@ -4,7 +4,7 @@ title: Pre-register
 ref: preregister
 lang: en
 permalink: pre-register.html
-order: 2
+order: 3
 ---
 <div class="art-layout-wrapper">
                 <div class="art-content-layout">
