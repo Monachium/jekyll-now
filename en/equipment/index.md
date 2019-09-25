@@ -7,7 +7,7 @@ permalink: en/equipment
 order: 3
 ---
 
-# Weapons
+# Weapons of all kinds
 
 Weapons need to be safe and sturdy, but that doesn't mean they have to be difficult to make. In fact, the first
 commercially available Belegarth weapons didn't make their appearance until the sport had existed for 20 years.
