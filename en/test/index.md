@@ -10,4 +10,4 @@ order: 6
 
 Lorem ipsum dolor sit amet.
 
-[Click me](http://www.google.com){: .btn}
+[Click me](http://www.google.com){: .btn .align-center}
