@@ -18,3 +18,5 @@ The 2017 fighting season was our best ever, but now winter has come.
 Come back in 2018 for even more fighting - and the first-ever [European Belegarth event](http://battlevaria.monachium.org/!
 Join [our mailing list](https://groups.google.com/forum/#!forum/belegarth-munich/join) 
 or [follow us on Facebook](http://fb.monachium.org/)!
+
+[Click me](http://www.google.com){: .btn} [Click me](http://www.google.com){: .btn} [Click me](http://www.google.com){: .btn} [Click me](http://www.google.com){: .btn}
