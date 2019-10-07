@@ -11,6 +11,8 @@ order: 6
 Lorem ipsum dolor sit amet.
 
 <div class="belegarth-button-container">
-    <button onclick="https://www.google.com">Click me</button>
+    <p>
+        <button onclick="https://www.google.com">Click me</button>
+    </p>
 </div>
 [Click me](http://www.google.com){: .btn}
