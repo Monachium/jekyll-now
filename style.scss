@@ -25,6 +25,11 @@ body {
   color: $darkGray;
 }
 
+div {
+  align-items: center;
+  text-align: center;
+}
+
 .btn {
   background-color: #4CAF50; /* Green */
   border: none;

@@ -10,4 +10,5 @@ order: 6
 
 Lorem ipsum dolor sit amet.
 
-[Click me](http://www.google.com){: .btn .align-center}
+<div>aligned text</div>
+[Click me](http://www.google.com){: .btn}
