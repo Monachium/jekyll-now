@@ -10,5 +10,7 @@ order: 6
 
 Lorem ipsum dolor sit amet.
 
-<div>aligned text</div>
+<div class="belegarth-button-container">
+    <p>aligned text</p>
+</div>
 [Click me](http://www.google.com){: .btn}
