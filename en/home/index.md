@@ -19,4 +19,4 @@ Come back in 2018 for even more fighting - and the first-ever [European Belegart
 Join [our mailing list](https://groups.google.com/forum/#!forum/belegarth-munich/join) 
 or [follow us on Facebook](http://fb.monachium.org/)!
 
-[Click me](http://www.google.com){: .btn} [Click me](http://www.google.com){: .btn} [Click me](http://www.google.com){: .btn} [Click me](http://www.google.com){: .btn}
+[Rules](http://www.google.com){: .btn} [Become a member](http://www.google.com){: .btn} [Weapons workshop](http://www.google.com){: .btn} [Videos](http://www.google.com){: .btn}

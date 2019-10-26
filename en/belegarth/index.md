@@ -5,6 +5,9 @@ lang: en
 ref: belegarth
 permalink: en/belegarth
 order: 2
+sublinks: 
+  - title: rules
+    url: en/belegarth/rules
 ---
 
 # What is Belegarth?
@@ -38,7 +41,7 @@ as long as it doesn't interfere with safety and playability. But even the fancie
 
 ## The rules of Belegarth
 
-This is a simplfied overview of the rules. The full rule set can be found at [belegarth.com](http://belegarth.com/rules.php)
+This is a simplified overview of the rules. The full rule set can be found at [belegarth.com](http://belegarth.com/rules.php)
 
 ### Target Areas and hits
 	
