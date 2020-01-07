@@ -25,7 +25,7 @@ body {
   color: $darkGray;
 }
 
-belegarth-button-container {
+button-center {
   align-items: center;
   text-align: center;
 }
@@ -51,6 +51,32 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+
+.BelegarthButton {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:sansSerif;
+	font-size:26px;
+	padding:6px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+.BelegarthButton:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color: #634b30;
+	color: black;
+}
+.BelegarthButton:active {
+	position:relative;
+	top:1px;
+}
+
 
 .container {
   margin: 0 auto;
@@ -246,7 +272,8 @@ img {
   }
 }
 
-nav {
+
+/* nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $sansSerif;
   font-size: 18px;
@@ -274,6 +301,33 @@ nav {
     text-decoration: underline;
   }
   
+  .navbar {
+		float: right;
+		margin-right: -15px;
+		font-family: 'Helvetica Rounded', Arial, sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 38px;
+		text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+	
+		.navbar-nav li a {
+			color: #b2bbbd;
+		}
+		.navbar-nav li a:hover,
+		.navbar-nav li a:focus {
+			color: #ffffff;
+			border-bottom: 2px solid #ffffff;
+		}
+		.navbar-nav .active a {
+			color: #ffffff;
+			border-bottom: 2px solid #ffffff;
+		}
+		.navbar-nav .dropdown-menu li a {
+			color: #515151;
+			text-shadow: none;
+		}
+	}
+  
   a {
     color: $darkGray;
     font-weight: 300;
@@ -283,7 +337,93 @@ nav {
       color: $blue;
     }
   }
+} */
+
+#navbar {
+/*     float: right; /* seems to do same thing as navbar ul li float left
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: gray; */
+	margin-top: 23px; // @TODO: Vertically middle align
+	font-family: $sansSerif;
+	font-size: 18px;
+	
+	.menu {
+		display: flex;
+		@include mobile {
+		  margin: 0;
+		  padding: 0;
+		}
+	}
+	.menu .selected {
+		text-decoration: underline;
+  }
 }
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+
+#navbar ul li a, .dropdown-toggle {
+    color: $darkGray;
+    text-align: center; /*doesn't seem to do anything*/
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+	font-weight: 300;
+    letter-spacing: 1px;
+/* 	color: $darkGray;
+    font-weight: 300;
+    letter-spacing: 1px; */
+}
+
+#navbar ul li a:hover, .dropdown:hover .dropdown-toggle {
+    background-color: $lightGray;
+	color: black;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #7d5d3b; /* black; */
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#navbar .ddm a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.ddm {
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* additional styles */
+
+#navbar .dropdown-menu li {
+    float: none;
+}
+
 
 .language-picker {
   right: 20px;
@@ -346,6 +486,21 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+// TABLES
+
+.cell-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.table-cell-margin {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @import "menu";

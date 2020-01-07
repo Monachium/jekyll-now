@@ -4,7 +4,7 @@ title: Contact
 lang: en
 ref: contact
 permalink: en/contact
-order: 5
+order: 6
 ---
 
 # Main contact

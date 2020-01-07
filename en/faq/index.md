@@ -4,7 +4,7 @@ title: FAQ
 lang: en
 ref: faq
 permalink: en/faq
-order: 4
+order: 5
 ---
 
 # FAQ

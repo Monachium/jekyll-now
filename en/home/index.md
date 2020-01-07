@@ -14,9 +14,19 @@ We hail from all countries from over the world and as well as all genders.
 
 ## Fighting dates
 
-The 2017 fighting season was our best ever, but now winter has come.
-Come back in 2018 for even more fighting - and the first-ever [European Belegarth event](http://battlevaria.monachium.org/!)
+The 2019 fighting season was our best ever, but now winter has come.  
+Come back in 2020 for even more fighting!
+<!--- and the first-ever [European Belegarth event](http://battlevaria.monachium.org)! -->
 Join [our mailing list](https://groups.google.com/forum/#!forum/belegarth-munich/join) 
 or [follow us on Facebook](http://fb.monachium.org/)!
+<br/><br/>
+<div style="text-align: center">
+	<a href="belegarth/rules" class="BelegarthButton">Rules</a>
+	<a href="belegarth/membership" class="BelegarthButton">Become a member</a>
+	<a href="equipment/workshop" class="BelegarthButton">Weapons workshop</a>
+	<a href="belegarth/videos" class="BelegarthButton">Videos</a>
+</div>
 
-[Rules](http://www.google.com){: .btn} [Become a member](http://www.google.com){: .btn} [Weapons workshop](http://www.google.com){: .btn} [Videos](http://www.google.com){: .btn}
+
+
+

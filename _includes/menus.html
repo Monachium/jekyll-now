@@ -1,18 +1,37 @@
 <!-- Based on a more advanced version: https://thinkshout.com/blog/2014/12/creating-dynamic-menus-in-jekyll/ -->
 
-<ul class='menu'>
-  <div class="flexfill"></div>
-{% assign pages = (site.pages | sort:'order') %}
-{% for node in pages %}
-  {% if node.url == page.url %}
-    {% assign selected = 'class="selected"' %}
-  {% else %}
-    {% assign selected = '' %}
-  {% endif %}
-  {% if node.lang == page.lang and node.title and node.url != '/404/' %}
-      <li class='menuitem'><a {{selected}} href='{{node.url}}'>{{node.title}}</a></li>
-      <div class="flexfill"></div>
-  {% endif %}
-{% endfor %}
+<ul class="menu">
+	<div class="flexfill"></div>
+	{% assign pages = (site.pages | sort:'order') %}
+	{% for node in pages %}
+		{% if node.url == page.url %}
+			{% assign selected = 'class="selected"' %}
+		{% else %}
+			{% assign selected = '' %}
+		{% endif %}
+		{% if node.lang == page.lang and node.title and node.url != '/404/' and node.hidemenu == 0) %}
+			{% if node.sublinks %}
+				<li class="dropdown {{ class }}">
+                    <a {{selected}} href="{{ node.url }}" class="dropdown-toggle">{{ node.title }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {% for sublink in node.sublinks %}
+                            {% if sublink.title == 'separator' %}
+                                <li role="separator" class="divider"></li>
+                            {% else %}
+                                <li class="ddm">
+                                    <a href="{{ node.url }}/{{ sublink.url }}">{{ sublink.title }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+			{% else %}
+				  <li class='{{ class }}'>
+					<a {{selected}} href='{{node.url}}'>{{node.title}} </a>
+				  </li>
+			{% endif %}
+			<div class="flexfill"></div>
+	  {% endif %}
+	{% endfor %}
 </ul>
 
