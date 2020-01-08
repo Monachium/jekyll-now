@@ -22,33 +22,33 @@ hidemenu: true
 </td>
 <td scope="row">
 <p class="table-cell-margin">
-	<img class="cell-img" src="{{site.baseurl}}/images/king1.jpg"  width="970"/></p>
+	<img class="cell-img" src="/images/king1.JPG"  width="970"/></p>
 <h3 style="text-align: center;"><a href="team-battle">Team Battle (King)</a></h3>
 </td>
 </tr>
 <tr>
 <td scope="rowgroup">
 <p class="table-cell-margin">
-	<img class="cell-img" src="{{site.baseurl}}/images/bridge-of-doom.jpg" width="970"/>
+	<img class="cell-img" src="/images/bridge-of-doom.jpg" width="970"/>
 </p>
 <h3 style="text-align: center;"><a href="bridge-of-doom">Bridge of Doom</a></h3>
 </td>
 <td scope="row">
 <p class="table-cell-margin">
-	<img class="cell-img" src="{{site.baseurl}}/images/duel.jpg"  width="970"/></p>
+	<img class="cell-img" src="/images/duel.jpg"  width="970"/></p>
 <h3 style="text-align: center;"><a href="duels">Duels</a></h3>
 </td>
 </tr>
 <tr>
 <td scope="rowgroup">
 <p class="table-cell-margin">
-	<img class="cell-img" src="{{site.baseurl}}/images/minions.jpg" width="970"/>
+	<img class="cell-img" src="/images/minions.jpg" width="970"/>
 </p>
 <h3 style="text-align: center;"><a href="minions">Minions</a></h3>
 </td>
 <td scope="row">
 <p class="table-cell-margin">
-	<img class="cell-img" src="{{site.baseurl}}/images/vampires.jpg"  width="970"/></p>
+	<img class="cell-img" src="/images/vampires.jpg"  width="970"/></p>
 <h3 style="text-align: center;"><a href="vampires">Vampires</a></h3>
 </td>
 </tr>
