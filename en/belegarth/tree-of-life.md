@@ -8,8 +8,6 @@ order: 0
 hidemenu: true
 ---
 
-<a href="battle-types" class="BelegarthButton">Return to Battle Types</a>
-
 # Tree of Life
 
 <img class="cell-img" src="../../images/tree-of-life.jpg" width="600"/>
@@ -26,3 +24,5 @@ Time limit.
 ## Objectives
 This game type is typically run as a warm-up.
 It also allows newbies to get confident with the fighting system and their weapon.
+
+<a href="battle-types" class="BelegarthButton">Return to Battle Types</a>
