@@ -10,7 +10,7 @@ hidemenu: true
 
 # Tree of Life
 
-<img class="cell-img" src="../../images/tree-of-life.jpg" width="600"/>
+<img class="cell-img" src="../../images/tree-of-life.JPG" width="600"/>
 
 ## Start
 Fighters gather in a circle. The game begins as a free for all.
