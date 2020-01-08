@@ -16,7 +16,7 @@ hidemenu: true
 <tr>
 <td scope="rowgroup">
 <p class="table-cell-margin">
-	<img class="cell-img" src="{{site.baseurl}}/images/tree-of-life.jpg" width="970"/>
+	<img class="cell-img" src="/images/tree-of-life.jpg" width="970"/>
 </p>
 <h3 style="text-align: center;"><a href="tree-of-life">Tree of Life</a></h3>
 </td>
